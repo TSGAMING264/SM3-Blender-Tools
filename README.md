@@ -114,6 +114,7 @@ The tools are usable foundations and are still open to improvement. Contribution
 
 - **Devryx** — for the Web of Shadows Blender Kit, an important reference and foundation for this work.
 - **Haruse** — for Web of Shadows Blender tooling, texture-conversion workflows, and material/model research.
+- **Shotariya** — for creating the original Material Combiner.
 - The wider Spider-Man modding community for years of experimentation, testing, and shared knowledge.
 
 ## License
