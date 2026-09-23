@@ -1,0 +1,3 @@
+The SM3 addon does not clone or rewrite Material Combiner.
+Install the separately supplied original material-combiner-addon-master.zip.
+The SM3 panel calls its public operators smc.refresh_ob_data and smc.combiner.

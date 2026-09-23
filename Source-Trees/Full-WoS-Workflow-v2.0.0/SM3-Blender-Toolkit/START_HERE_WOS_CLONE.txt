@@ -1,0 +1,56 @@
+SM3 WoS WORKFLOW CLONE v2.0.0 — START HERE
+===========================================
+
+GOAL
+----
+Make the Spider-Man 3 workflow feel like the classic WoS process:
+
+IMPORT
+  -> RIG / WEIGHTS
+  -> KEEP CORRECT SOURCE MATERIAL REGIONS
+  -> ASSIGN SOURCE TEXTURES
+  -> MATERIAL COMBINER
+  -> ONE ATLAS + PACKED UV
+  -> CAPTURE ATLAS UV
+  -> CLEAN GAME OUTPUT
+  -> WEIGHT-SAFE EXPORT
+
+DO NOT START BY COLLAPSING THE MODEL TO ONE MATERIAL.
+Material Combiner needs the source face/material routing first.
+
+SPIDER 000 SOURCE SLOT MAP
+--------------------------
+0xAC933008 = PRIMARY BODY APPEARANCE
+             changes most of the suit/body
+
+0x3EF08B55 = SECONDARY BODY APPEARANCE
+             covers remaining body regions
+
+0x1E7B964E = EYES
+
+0xE52A3DF4 = FRONT SPIDER + EYELIDS
+
+0xE771757E = WEBS / WEB COLOR
+
+0x654DD425 = BACK SPIDER
+
+QUICK FLOW
+----------
+1. Import mesh + skeleton.
+2. Rig / transfer weights / rename vertex groups.
+3. Select editable Spider mesh.
+4. ADD / VERIFY 6 SLOTS.
+5. Inspect each material's faces and assign its correct source image.
+6. CAPTURE SOURCE UV + RIG.
+7. VALIDATE MATERIAL IMAGES and VALIDATE COMBINER READY.
+8. PREPARE COMBINER WORK COPY.
+9. Update Material List -> Generate Texture Atlas.
+10. CAPTURE COMBINED ATLAS UV.
+11. VALIDATE RIG + ATLAS UV.
+12. BUILD / REFRESH CLEAN GAME OUTPUT.
+13. EXPORT CLEAN SPIDER 000 MESH (WEIGHT SAFE).
+
+RULE
+----
+If Blender looks wrong BEFORE Material Combiner, stop and fix material/face routing.
+If Blender looks right but the game looks wrong, do not destroy the source routing/rig to fix a game shader issue.

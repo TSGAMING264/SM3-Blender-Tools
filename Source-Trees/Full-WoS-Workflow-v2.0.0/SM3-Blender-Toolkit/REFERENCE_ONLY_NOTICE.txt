@@ -1,0 +1,10 @@
+REFERENCE ONLY
+==============
+The user's supplied CH_SPIDERMAN.zip is the FRIEND'S COMPLETED MOD.
+Do not select it as VANILLA Target.
+Do not use it as a template.
+Do not copy its geometry into OUR mod.
+
+For Spider 000 atlas prep, import the untouched FULL VANILLA game mesh:
+0xAC92103D.ch_spiderman000.mesh
+Validated vanilla profile: 10 sections; Spider canvas = section 4; serialized ref = 0x00000614.

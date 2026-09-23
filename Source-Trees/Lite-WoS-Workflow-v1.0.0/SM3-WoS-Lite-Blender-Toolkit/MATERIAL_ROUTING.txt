@@ -1,0 +1,22 @@
+SM3 SPIDER-MAN 000 MATERIAL ROUTING
+===================================
+
+CANONICAL SIX-SLOT HANDOFF
+0xAC933008 = PRIMARY BODY APPEARANCE       (ch_spidermanred)
+0x3EF08B55 = SECONDARY BODY APPEARANCE     (ch_spidermanblue)
+0x1E7B964E = EYES                          (ch_spidermanwhite)
+0xE52A3DF4 = FRONT SPIDER + EYELIDS        (ch_spidermanspider)
+0xE771757E = WEBS / WEB COLOR              (ch_spidermantopweb)
+0x654DD425 = BACK SPIDER                   (ch_spidermanbackspider)
+
+STOCK EXTRA
+0x79C43D30 = SIDE WEBS                     (ch_spidermansideweb)
+
+VERIFIED STOCK 000 SECTION -> MATERIAL REF
+sections 0-1 : 0xAC933008 -> 0x000004E4
+section 2    : 0x3EF08B55 -> 0x00000128
+section 3    : 0x654DD425 -> 0x000002BC
+section 4    : 0xE52A3DF4 -> 0x00000614
+sections 5-6 : 0x79C43D30 -> 0x0000037C
+sections 7-8 : 0xE771757E -> 0x00000640
+section 9    : 0x1E7B964E -> 0x000000A0

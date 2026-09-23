@@ -1,0 +1,28 @@
+SM3 SPIDER 000 — CANONICAL SOURCE MATERIAL SLOT MAP
+===================================================
+
+0xAC933008  ch_spidermanred
+ROLE: PRIMARY BODY APPEARANCE
+USE: Changes most of the suit/body.
+
+0x3EF08B55  ch_spidermanblue
+ROLE: SECONDARY BODY APPEARANCE
+USE: Covers the remaining body regions.
+
+0x1E7B964E  ch_spidermanwhite
+ROLE: EYES
+
+0xE52A3DF4  ch_spidermanspider
+ROLE: FRONT SPIDER + EYELIDS
+
+0xE771757E  ch_spidermantopweb
+ROLE: WEBS / WEB COLOR
+
+0x654DD425  ch_spidermanbackspider
+ROLE: BACK SPIDER
+
+IMPORTANT
+---------
+These are SOURCE workflow roles. Keep them separated until the source textures look correct and Material Combiner has built the atlas.
+
+Use SHOW ONLY THIS MATERIAL'S FACES to verify ownership. A slot that exists but owns zero faces is not proof that region is currently routed correctly.

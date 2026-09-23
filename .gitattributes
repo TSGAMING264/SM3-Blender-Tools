@@ -1,0 +1,2 @@
+# Preserve the supplied source-tree bytes and archive provenance.
+Source-Trees/** -text

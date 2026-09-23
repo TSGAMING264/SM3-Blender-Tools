@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "sm3_blender_toolkit"
+version = "2.0.0"
+name = "SM3 WoS Workflow Clone"
+tagline = "WoS-style SM3 porting with canonical source slots, protected atlas combine, and weight-safe export"
+maintainer = "TSGAMING264"
+type = "add-on"
+
+blender_version_min = "4.5.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "Read SM3 mesh/skeleton sources and write exact-target exports"

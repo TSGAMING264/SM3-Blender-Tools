@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "material_combiner_wos_compat"
+version = "2.3.0"
+name = "Material Combiner - SM3 WoS Clone Companion"
+tagline = "Protected WoS-style atlas combiner companion for SM3 WoS Workflow Clone v2.0"
+maintainer = "shotariya / Grim-es; compatibility packaging for SM3 WoS workflow"
+type = "add-on"
+website = "https://github.com/Grim-es/material-combiner-addon"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "Read source textures and save generated texture atlases"
+network = "Optional updater and Pillow installation used by the original add-on"

@@ -1,0 +1,32 @@
+SM3 WoS WORKFLOW CLONE — SENDOFF CHECKLIST
+==========================================
+
+[ ] Both add-ons installed separately:
+    - SM3 WoS Workflow Clone
+    - Material Combiner WoS/SM3 companion
+
+[ ] Custom model is the editable target.
+[ ] Original SM3 donor BODY is deleted/hidden after weight transfer.
+[ ] SM3 skeleton/armature is still present.
+[ ] Vertex groups/weights deform correctly.
+
+SOURCE MATERIAL REGIONS
+[ ] 0xAC933008 PRIMARY BODY APPEARANCE
+[ ] 0x3EF08B55 SECONDARY BODY APPEARANCE
+[ ] 0x1E7B964E EYES
+[ ] 0xE52A3DF4 FRONT SPIDER + EYELIDS
+[ ] 0xE771757E WEBS / WEB COLOR
+[ ] 0x654DD425 BACK SPIDER
+
+[ ] Used slots have correct faces.
+[ ] Used slots have correct source images.
+[ ] Model looks correct before atlas.
+[ ] CAPTURE SOURCE UV + RIG passed.
+[ ] Protected COMBINER WORK COPY created.
+[ ] Material Combiner sees only intended work-copy materials.
+[ ] Atlas generated.
+[ ] CAPTURE COMBINED ATLAS UV passed.
+[ ] Clean output visually matches atlas model.
+[ ] Weight-safe export JSON reports spider_bone_remap_count = 0.
+[ ] Every output section has <= 32 bones.
+[ ] UV serialization divisor = 1024.

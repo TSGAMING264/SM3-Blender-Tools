@@ -1,0 +1,19 @@
+SM3 WoS Workflow Clone v2.0 — Material Combiner Companion
+==========================================================
+
+INSTALL THIS ZIP SEPARATELY FROM THE SM3 TOOLKIT ZIP.
+
+The SM3 toolkit owns:
+- mesh/skeleton import
+- source slot guide
+- rig/UV capture
+- protected work-copy creation
+- atlas UV capture
+- clean output
+- weight-safe export
+
+Material Combiner owns:
+- packing the selected source images into one atlas
+- repacking the work-copy UVs to match that atlas
+
+Do not expect Material Combiner to determine which texture belongs to which faces.

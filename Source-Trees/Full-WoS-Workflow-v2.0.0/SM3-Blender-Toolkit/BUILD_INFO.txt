@@ -1,0 +1,13 @@
+SM3 WoS Workflow Clone v2.0.0
+Built for handoff/testing.
+
+Focus of this clean build:
+- WoS-style visible workflow order
+- exact six canonical Spider 000 source material roles
+- safe append/verify slot helper (no reordering / no face-routing edits)
+- protected Material Combiner work copy
+- fresh atlas UV capture
+- UV SHORT2 * 1024
+- weight-safe smart-section export with zero intentional bone remapping
+
+This build deliberately keeps the Material Combiner as a separate add-on ZIP.

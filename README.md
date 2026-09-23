@@ -7,7 +7,9 @@ This repository keeps the Blender tooling separate from the [xeSM3 loader](https
 - **xeSM3** loads loose Spider-Man 3 resources and provides the tested runtime and renderer restoration.
 - **SM3 Blender Tools** handles Blender-side mesh, skeleton, material, texture, and atlas workflows.
 
-## Included add-ons
+## Original source tree (preserved)
+
+The original repository source remains at the root and has not been replaced or mixed with the newer workflows.
 
 ### [SM3 Blender Toolkit v1.1.7](SM3-Blender-Toolkit/)
 
@@ -34,15 +36,37 @@ Provides:
 - Slot-safe atlas generation and UV remapping
 - Preservation of SM3 material slots and polygon material indices
 
+## Additional workflow source trees
+
+Two self-contained alternatives are available under [`Source-Trees/`](Source-Trees/README.md). Their files stay separate from the original source and from each other.
+
+### [Full WoS Workflow Clone v2.0.0](Source-Trees/Full-WoS-Workflow-v2.0.0/)
+
+Contains:
+
+- SM3 WoS Workflow Clone v2.0.0
+- Its separately installed Material Combiner companion
+- The full source-material routing, protected atlas work-copy, clean-output, and weight-safe export workflow
+
+### [Lite WoS Workflow v1.0.0](Source-Trees/Lite-WoS-Workflow-v1.0.0/)
+
+Contains:
+
+- SM3 WoS Lite Blender Toolkit v1.0.0
+- Its own copy of the separately installed Material Combiner companion
+- A smaller import, weight-transfer, material-routing, texture-conversion, and Spider-Man 000 export workflow
+
+The two supplied Material Combiner companion ZIPs are byte-for-byte identical. A copy is retained inside each workflow tree so both trees are complete and understandable on their own.
+
 ## Requirements
 
-- Blender **4.5.0 or newer**, as declared by both extension manifests
+- A supported Blender version for the selected tree; the supplied add-ons declare minimums ranging from Blender 4.1 to 4.5
 - Original Spider-Man 3 resources appropriate to the workflow you are using
 - [xeSM3](https://github.com/TSGAMING264/xeSM3) when testing exported loose resources in game
 
 ## Installation
 
-The two folders are independent Blender extensions. Install only the tool you need.
+Each toolkit and companion folder is an independent Blender extension. Choose one source tree, follow its included README, and install its add-ons separately. Do not merge files between the original, Full, and Lite trees.
 
 When packaged releases are published:
 
@@ -71,6 +95,7 @@ Read each add-on's own README before using its advanced workflows:
 
 - [SM3 Blender Toolkit documentation](SM3-Blender-Toolkit/README.md)
 - [SM3 Material Combiner documentation](SM3-Material-Combiner/README.md)
+- [Full and Lite workflow source-tree guide](Source-Trees/README.md)
 
 ## Project status and community help
 
