@@ -1,0 +1,31 @@
+SM3 Material Combiner Toolkit v1.2.0
+===================================
+
+SLOT-SAFE ATLAS FIX
+
+Confirmed test problem fixed:
+- S0/S1/S2/S3 were visible in Materials to Combine.
+- S2 (0x3EF08B55) had its own TEX2 Image Texture connected to Base Color.
+- Blender material preview showed the correct second image.
+- The generated atlas still omitted that second texture and only showed repeated body artwork.
+
+Changes:
+1. Atlas input is now OBJECT + MATERIAL SLOT, not material datablock/hash.
+2. Every checked S# is scanned independently. Duplicate REAL MAT hashes remain separate.
+3. The image actually feeding Principled Base Color is traced per material/slot.
+4. Checked zero-face slots are no longer silently dropped; they are included and reported.
+5. Atlas UV remap resolves rectangles by object+slot, never material pointer.
+6. SM3 mode preserves S0/S1/S2/S3 (or any character section count) after atlas creation.
+7. Polygon material indices are preserved.
+8. Selected materials are cloned to sample the shared atlas while retaining REAL MAT identity.
+9. Update Material List now shows face count and source image for each slot.
+10. Atlas JSON report records every slot, image, face count, UV range and packed rectangle.
+
+Expected current Spider-Man 000 test:
+S0 0xAC933008 -> WOS BODY
+S1 0xAC933008 -> WOS BODY
+S2 0x3EF08B55 -> WOS ARMS/LEGS (TEX2)
+S3 0x1E7B964E -> WOS BODY
+
+After Create SLOT-SAFE Atlas + Remap UVs + DDS, the atlas should visibly contain
+both source artworks and the Blender mesh should still retain four SM3 slots.

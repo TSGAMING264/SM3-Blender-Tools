@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "sm3_material_combiner"
+version = "1.2.0"
+name = "SM3 Material Combiner Toolkit"
+tagline = "SM3 slot-safe atlas combiner with per-slot texture capture and REAL MAT/TEX tools"
+maintainer = "TSGAMING264"
+type = "add-on"
+
+blender_version_min = "4.5.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+[permissions]
+files = "Read material databases and user-selected SM3 DDS/TEX files and write atlas/converted texture files"

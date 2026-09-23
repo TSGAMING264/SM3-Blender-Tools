@@ -1,0 +1,30 @@
+SM3 Material Combiner Toolkit v1.1.0
+===================================
+
+CORRECTED ARCHITECTURE
+- Built from the existing standalone SM3 Material Combiner Toolkit.
+- The uploaded/reference material-combiner-addon-master is NOT edited.
+- No panel bridge into the SM3 Blender Toolkit.
+- No WoS/reference-addon namespace reuse.
+- Unique add-on package remains: sm3_material_combiner.
+- Sidebar remains: SM3 Materials.
+
+NEW
+- Materials to Combine: panel inside SM3 Materials.
+- Update Material List button.
+- Object headers + S# slot rows.
+- REAL MAT hash display.
+- Duplicate same-hash slots remain separate.
+- Per-row include checkbox and layer value.
+- Select All / Select None.
+- Optional Selected Objects Only scan.
+- List choices drive atlas creation.
+- Unchecked material slots remain untouched during partial atlas combine.
+
+RETAINED
+- REAL MAT/TEX database tools.
+- MAT -> TEX report.
+- DDS material loading.
+- Native DDS/TEX conversion.
+- Duplicate material cleanup.
+- Existing atlas workflow.

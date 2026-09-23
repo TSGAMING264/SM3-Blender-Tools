@@ -1,0 +1,12 @@
+PASS - bl_info 1.1.7
+PASS - manifest 1.1.7
+PASS - no four-value rename unpack
+PASS - operator accepts scalar
+PASS - rename returns integer
+PASS - literal bone index map
+PASS - raw bone regex
+PASS - no character tables in rename func
+PASS - MESH import raw groups
+PASS - compile sources
+
+PASS v1.1.7: source-SKEL authoritative index mapping + hidden VG game-index map.

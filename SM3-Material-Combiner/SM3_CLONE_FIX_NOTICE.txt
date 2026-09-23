@@ -1,0 +1,8 @@
+THIS IS THE SM3 CLONE.
+
+The reference/original material-combiner-addon-master was NOT modified.
+This add-on installs separately as sm3_material_combiner and appears in the
+3D View sidebar under SM3 Materials.
+
+v1.1.0 brings the Materials to Combine list + Update Material List workflow
+into the SM3 clone itself.

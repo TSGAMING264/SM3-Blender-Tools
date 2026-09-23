@@ -1,0 +1,7 @@
+SM3 Material Combiner Toolkit v1.0.0
+
+- Split heavy material systems out of the main SM3 Blender Toolkit.
+- Carries the REAL MAT database and MESH -> MAT -> TEX research workflow.
+- Carries material duplicate combining and legacy local-reference migration.
+- Carries resolved DDS loading, DDS/TEX conversion and atlas creation.
+- Uses its own SM3 Materials panel and operator IDs so it can coexist with SM3 Blender Toolkit Lite.
