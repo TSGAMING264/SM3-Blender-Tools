@@ -1,3 +1,5 @@
+![SM3 Blender Tools preview](docs/images/sm3_blender_tools_preview.png)
+
 # Spider-Man 3 Blender Tools
 
 Blender import, export, material, texture, and atlas tools for **Spider-Man 3 PC** modding, created by **TSGAMING264**.
